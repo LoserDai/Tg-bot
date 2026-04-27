@@ -2,5 +2,5 @@ server:
     port: 80
 telegram:
     bot:
-        token: YOUR_TOKEN
+        token: 8059302312:AAF8co2OFzSZ3G-Q3I7o6mvvGs3MeiNgIhA
         webhookPath: /telegram/webhook/Vegeta
