@@ -24,7 +24,7 @@ public class TelegramService {
             Long chatId = update.message().chat().id();
 
             // 简单回复逻辑
-            String reply = "你发送了: " + text;
+            String reply = "You send: " + text;
 
             bot.execute(new SendMessage(chatId, reply));
         }
